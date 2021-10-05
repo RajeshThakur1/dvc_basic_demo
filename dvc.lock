@@ -11,7 +11,7 @@ stages:
       md5: 7e6214bb528dd69609564aa1392a7e53
       size: 8
   stage_02:
-    cmd: python stage_01.py
+    cmd: python stage_02.py
     deps:
     - path: artifect01.txt
       md5: 7e6214bb528dd69609564aa1392a7e53
@@ -19,3 +19,16 @@ stages:
     - path: stage_02.py
       md5: 8be566787c28431c5fdc4b54be9856d8
       size: 94
+  stage_03:
+    cmd: python stage_03.py
+    deps:
+    - path: artifect01.txt
+      md5: 7e6214bb528dd69609564aa1392a7e53
+      size: 8
+    - path: stage_03.py
+      md5: 488c2d31e889890b73e3cc8937e8face
+      size: 181
+    outs:
+    - path: artifect02.txt
+      md5: 256a1f6cb5afb6cf2e23e0f94bfe4925
+      size: 18
