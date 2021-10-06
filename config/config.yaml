@@ -1,0 +1,5 @@
+data_source: https://github.com/shrikant-temburwar/Wine-Quality-Dataset/blob/master/winequality-red.csv
+artifacts:
+  artifacts_dir: artifacts
+  raw_local_dir: raw_local_dir
+  raw_local_file: data.csv
