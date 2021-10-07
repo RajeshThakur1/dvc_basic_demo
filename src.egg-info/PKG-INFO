@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc ml pipeline demo
+Home-page: https://github.com/RajeshThakur1/dvc_basic_demo
+Author: RajeshThakur1
+Author-email: rajeshthakur1r@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Commanda used
+```bash
+conda create -n basic_demo python=3.7
+```
+
+```bash
+conda activate basic_demo
+```
+```bash
+pip install dvc
+```
+```bash
+git init
+```
+```bash
+dvc init
+```
+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
+https://github.com/c17hawke/dvc-ML-demo-AIOps
+
